@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* DAU TRANG */
+header.dautrang {
+   
+    background-color:#FFCC00 ;
+}
+header.dautrang >div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header.dautrang >div>div>img{
+    max-width: 300px;
+    height: auto;
+}
+header.dautrang > div> div > ul{
+
+    display: flex;
+    margin: 10px auto;
+
+
+}
+header.dautrang > div> div > ul>li{
+    list-style-type: none;
+    border-right: 2px solid blue;
+}
+header.dautrang > div> div > ul>li >a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    min-width: 120px;
+    display: block;
+    
+    font-weight: bold;
+    padding: 15px;
+}
+header.dautrang > div> div > ul>li >a:hover{
+    color: blue;
+    background-color: bisque;
+}
+header.dautrang > div> div > ul>li:nth-child(4)
+{
+    border-right: none
+}
+header.dautrang > div> div > ul>li>a{
+    margin: 0 20px;
+    justify-content: space-between;
+}
+header.dautrang > div> div>div>form.timkiem{
+    display: flex;
+}
+header.dautrang > div> div>div>form.timkiem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header.dautrang > div> div>div>form.timkiem>div>input[type=text]{
+    font-size: 20px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border-radius: 10px 0px 0px 10px;
+}
+header.dautrang > div> div>div>form.timkiem>input[type=submit]{
+    background-color: grey;
+    padding: 5px;
+}
+header.dautrang > div> div>div{
+    display: flex;
+}
+.danhsach2>ul{
+margin-top: 20px;
+margin-bottom: 20px;
+    display: flex;
+    list-style: none;
+    padding: 5px;
+}
+.danhsach2>ul>li>a{
+    text-align: center;
+    text-decoration: none;
+    min-width: 200px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.danhsach2>ul>li>a:hover{
+    color: blue;
+    background-color: bisque;
+}
+
+
+/* PHAN GIOI THIEU  */
+section.gioithieu{
+    width: 80%;
+    margin: 0 auto;
+}
+section.gioithieu>div>h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+section.gioithieu>div>h3{
+    font-size: 25px;
+    margin-left: 30px;
+}
+section.gioithieu>div>h4{
+    font-size: 25px;
+    margin-top: 20px;
+}
+section.gioithieu >div>img{
+max-width: 100%;
+} 
+section.gioithieu>div>p{
+    text-indent: 20px;
+    margin: 10px;
+    font-size: 20px;
+}
+section.gioithieu>div>ul>li{
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* Phần     LIÊN HỆ */
+section.lienhe{
+    width: 80%;
+    margin: 50px auto;
+}
+section.lienhe>h3{
+    font-size: 25px;
+}
+section.lienhe>h2>p{
+    margin-top: 20px;
+}
+
+/* PHẦN TRA CỨU ĐƠN HÀNG */
+
+section.thongtindonhang>div>p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+section.thongtindonhang>div{
+    background-color: antiquewhite;
+}
+section.thongtindonhang>div>form{
+    margin-left: 20%;
+}
+section.thongtindonhang>div>form>div>p{
+    font-size: 25px;
+    font-weight: bold;
+}
+section.thongtindonhang>div>form>div>input[type=tel]{
+    font-size: 20px;
+    padding: 10px;
+    background-color: whitesmoke;
+    margin:5px 100px;
+}
+section.thongtindonhang>div>form>div>input[type=submit]{
+    background-color: red;
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* PHAN THAN TRANG CHủ mục các sản phẩm nổi bật   */
+section.thantrangchu >div>img{
+    width: 100%;
+    height: auto;
+
+}
+section.thantrangchu {
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 20px auto;
+}
+section.thantrangchu>div{
+    background-color: antiquewhite;
+}
+section.thantrangchu>div >div{
+    display: flex;
+    overflow-x: auto;
+    
+}
+section.thantrangchu>div>h2{
+    padding: 10px;
+    background-color:#8f7517;
+    margin: 15px 5px auto;
+}
+section.thantrangchu>div>h2>a{
+    font-size: 23px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.sanpham1{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px; 
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 4px 3px 3px black;
+}
+.sanpham1>h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sanpham1>h3.a{
+    text-decoration: none;
+}
+.sanpham1>p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sanpham1>p>a{
+    font-size: 22px;
+    background-color:darkgrey;
+}
+.sanpham1>p>a:hover{
+    background-color: blue;
+    color: white;
+}
+.sanpham1>div>img{
+    height: 300px;
+    width: auto;
+    transition:transform ease 1s;
+}
+.sanpham1>div>img:hover{
+    transform: skew(-5deg); 
+/* transform: scale(0.7); */
+}
+
+
+
+/* <!-- mục danh sách các sản phẩm --> */
+section.sanpham>ul{
+    display: flex;
+
+}
+section.sanpham{
+    background-color:tomato;
+}
+
+section.sanpham>ul{
+    display: flex;
+}
+
+section.sanpham>ul>li{
+    list-style-type: none;
+    border-right: 2px solid blue;
+}
+section.sanpham >ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 15px;
+
+    font-weight: bold;
+}
+
+section.sanpham >ul>li>a:hover{
+    background-color: darkblue;
+    color: white;
+}
+/* PHAN DANH SACH SAN PHAM chi tiet :điện thoại , laptop, tai nghe,....*/
+
+section.danhsachsanpham
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    height: 1000px;
+    overflow: auto;
+}
+
+section.danhsachsanpham > .sanpham
+{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 5px; 
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 5px 3px 3px black;
+}
+
+section.danhsachsanpham> .sanpham>h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section.danhsachpsanpham>.sanpham>h3>a{
+    text-decoration: none;
+}
+
+section.danhsachsanpham>.sanpham>a{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section.danhsachsanpham>.sanpham>p>a{
+    font-size: 15px;
+    background-color:darkgrey;
+}
+
+section.danhsachpsanpham>.sanpham>p>a:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+section.danhsachsanpham>.sanpham>div>img{
+    height: 300px;
+    width: 300px;
+    transition:transform ease 1s;
+}
+
+section.danhsachsanpham>.sanpham>div>img:hover{
+    transform: skew(-5deg); 
+/* transform: scale(0.7); */
+}
+
+/* FOTTER */
+footer{
+    margin-top: 20px;
+    background-color: darkkhaki;
+}
+hr{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+footer.cuoitrang1{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+h4.h4_1{
+    margin-top: 25px;
+}
+footer.cuoitrang1>div.khoi1>h4>a,
+footer.cuoitrang1>div.khoi2>h4>a,
+footer.cuoitrang1>div.khoi3>h4>a{
+    font-size: 20px;
+    text-decoration: none;
+}
+footer.cuoitrang1>div.khoi1>h4>a:hover,
+footer.cuoitrang1>div.khoi2>h4>a:hover,
+footer.cuoitrang1>div.khoi3>h4>a:hover{
+    color: red;
+}
+footer.cuoitrang2{
+    width: 80%;
+    margin: 0 auto;
+}
+footer.cuoitrang2>p{
+    font-size: 16px;
+}
+footer.cuoitrang2> img{
+    width: 200px;
+    margin: 10px 50px;
+}
+
+/* GIỎ HÀNG  */
+section.giohang{
+    margin-top: 40px;
+
+}
+section.giohang>p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+section.giohang>h2{
+margin-top: 100px;
+text-align: center;
+}
+section.giohang>h3{
+    text-align: center;
+    font-size: 30px;
+}
+section.giohang>h3>a:hover{
+    color: red;
+}
+
+
+
